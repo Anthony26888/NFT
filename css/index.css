@@ -1,0 +1,607 @@
+body {
+  background-color: #00031a;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  left: -10px;
+}
+
+/************************************************************************ NAVBAR ***************************************************************/
+.logo {
+  position: absolute;
+  width: 159px;
+  height: 29px;
+  left: 88px;
+  top: 47.9px;
+
+  font-family: "Peralta";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.6267px;
+  line-height: 29px;
+  /* identical to box height, or 147% */
+
+  display: flex;
+  align-items: center;
+
+  /* Secondary 2 */
+
+  background: linear-gradient(124.65deg, #e025ce 22.81%, #4aed52 98.66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 515px;
+  height: 25px;
+  left: 498px;
+  top: 35px;
+}
+
+.menu-item {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.connect-wallet-nav {
+  position: absolute;
+  width: 180px;
+  height: 45.55px;
+  left: 1242px;
+  top: 39px;
+
+  border: 2px solid #e025ce;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+
+/************************************************************** MAIN-1 ********************************************************************/
+.main-1 {
+  position: absolute;
+}
+
+.headline {
+  position: absolute;
+  width: 583px;
+  height: 268px;
+  left: 86px;
+  top: 254px;
+}
+
+.line-1 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #ffffff;
+}
+
+.line-2 {
+  font-family: "Paytone One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 75px;
+  /* or 110% */
+
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.line-3 {
+  font-family: "Paytone One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 75px;
+  /* or 110% */
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  background: linear-gradient(124.65deg, #e025ce 22.81%, #4aed52 98.66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.line-4 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+.connect-wallet-headline {
+  position: absolute;
+  width: 245px;
+  height: 62px;
+  left: 0;
+  top: 300px;
+
+  border-radius: 6px;
+  background: linear-gradient(142.41deg, #bd24e6 -12.51%, #e40fac 136.14%);
+  border: 2px solid #4aed52;
+  cursor: pointer;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.button-1 {
+  position: absolute;
+  width: 245px;
+  height: 62px;
+  left: 0;
+  top: 300px;
+  background: linear-gradient(142.41deg, #bd24e6 -12.51%, #e40fac 136.14%);
+  border: 3px solid #4aed52;
+  filter: blur(10px);
+}
+
+.how-it-work {
+  position: absolute;
+  width: 235px;
+  height: 63px;
+  left: 358px;
+  top: 320px;
+}
+
+.text-how-it-work {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.monkey-card {
+  position: absolute;
+  width: 400px;
+  height: 732.31px;
+  left: 950px;
+  top: 120px;
+}
+
+.bg-monkey-card {
+  position: absolute;
+  width: 450px;
+  height: 400px;
+  left: 0px;
+  top: 100px;
+  z-index: -999;
+  background: linear-gradient(138.84deg,
+      rgba(255, 255, 255, 0.132) -6.39%,
+      rgba(143, 143, 143, 0.063) 112.17%);
+  backdrop-filter: blur(50px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 6px;
+
+}
+
+.elip300 {
+  position: absolute;
+  width: 450px;
+  height: 500px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(124.65deg, #e025ce 22.81%, #4aed52 98.66%);
+  opacity: 0.5;
+  filter: blur(50px);
+  transform: rotate(150deg);
+}
+
+.elip200 {
+  position: absolute;
+  width: 450px;
+  height: 500px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(124.65deg, #e025ce 22.81%, #4aed52 98.66%);
+  opacity: 0.5;
+  filter: blur(50px);
+  transform: rotate(40.46deg);
+  background: linear-gradient(124.65deg, #e025ce 22.81%, #4aed52 98.66%);
+  opacity: 0.5;
+  filter: blur(50px);
+  transform: rotate(40.46deg);
+}
+
+.time-headline-card {
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  left: 270px;
+  top: 120px;
+
+
+  background: linear-gradient(138.84deg, rgba(255, 255, 255, 0.201) -6.39%, rgba(255, 255, 255, 0.063) 112.17%);
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 6px;
+}
+
+.text-time-headline-card {
+  position: absolute;
+  left: 30px;
+  top: 8px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  opacity: 0.7;
+}
+
+.bg-info-monkey-card {
+  position: absolute;
+  width: 450px;
+  height: 100px;
+  left: 0;
+  top: 400px;
+  z-index: 2;
+
+  background: linear-gradient(138.84deg,
+      rgba(255, 255, 255, 0.201) -6.39%,
+      rgba(255, 255, 255, 0.063) 112.17%);
+  opacity: 0.6;
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 0px 0px 6px 6px;
+}
+
+.text-card-1 {
+  padding: 20px 20px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #ffffff;
+}
+
+.text-card-2 {
+  padding: 20px 20px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+.price {
+  display: flex;
+}
+
+.elip-eth {
+  position: absolute;
+  top: 45px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 5px 20px;
+  display: flex;
+  background: linear-gradient(138.84deg,
+      rgba(255, 255, 255, 0.201) -6.39%,
+      rgba(255, 255, 255, 0.063) 112.17%);
+  backdrop-filter: blur(5px);
+}
+
+.price-eth {
+  position: absolute;
+  top: 60px;
+  left: 70px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.place-a-bid {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 300px;
+  top: 30px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: #00031a;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 5px black;
+}
+
+
+/************************************************************ MAIN-2 ************************************************************/
+.main-2 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: -30px;
+  top: 800px;
+}
+
+.companies {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+
+
+  background: linear-gradient(138.84deg, rgba(255, 255, 255, 0.132) -6.39%, rgba(143, 143, 143, 0.063) 112.17%);
+  backdrop-filter: blur(50px);
+}
+
+.company {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.name-company {
+  padding: 5px 5px;
+  list-style: none;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #FFFFFF;
+
+  opacity: 0.7;
+}
+
+
+
+/************************************************************* MAIN-3 *********************************************************/
+
+.main-3 {
+  position: absolute;
+  width: 1382px;
+  height: 618px;
+  left: 90px;
+  top: 1100px;
+
+}
+
+.text-trending-auctions {
+  position: absolute;
+  width: 1382px;
+  height: 48px;
+
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  /* White */
+
+  color: #FFFFFF;
+
+}
+
+.bg-trending-card {
+  position: absolute;
+  width: 313px;
+  height: 412px;
+  left: 0px;
+  top: 140px;
+  z-index: -999;
+  background: linear-gradient(138.84deg,
+      rgba(255, 255, 255, 0.132) -6.39%,
+      rgba(143, 143, 143, 0.063) 112.17%);
+  backdrop-filter: blur(50px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 6px;
+
+}
+
+.elip301 {
+  position: absolute;
+  width: 310px;
+  height: 400px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(138.34deg, rgba(154, 16, 159, 0.7) -11.36%, rgba(62, 255, 203, 0.7) 51.55%, rgba(248, 140, 248, 0.7) 113.16%);
+  opacity: 0.5;
+  filter: blur(37.2263px);
+  transform: rotate(90deg);
+}
+
+.time-trending-card {
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  left: 270px;
+  top: 120px;
+
+
+  background: linear-gradient(138.84deg, rgba(255, 255, 255, 0.201) -6.39%, rgba(255, 255, 255, 0.063) 112.17%);
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 6px;
+}
+
+.text-time-trending-card {
+  position: absolute;
+  left: 30px;
+  top: 8px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  opacity: 0.7;
+}
+
+.bg-info-trending-card {
+  position: absolute;
+  width: 313px;
+  height: 150px;
+  left: 0;
+  top: 400px;
+  z-index: 2;
+
+  background: linear-gradient(138.84deg,
+      rgba(255, 255, 255, 0.201) -6.39%,
+      rgba(255, 255, 255, 0.063) 112.17%);
+  opacity: 0.6;
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 0px 0px 6px 6px;
+}
+
+.text-card-1 {
+  position: absolute;
+  margin:10px 5px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #ffffff;
+}
+
+.text-card-2 {
+  position: absolute;
+  margin:10px 5px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+.price {
+  display: flex;
+}
+
+.elip-eth {
+  position: absolute;
+  position: absolute;
+  margin:10px 5px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 5px 20px;
+  display: flex;
+  background: linear-gradient(138.84deg,
+      rgba(255, 255, 255, 0.201) -6.39%,
+      rgba(255, 255, 255, 0.063) 112.17%);
+  backdrop-filter: blur(5px);
+}
+
+.price-eth {
+  position: absolute;
+  top: 60px;
+  left: 70px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.place-a-bid {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 300px;
+  top: 30px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: #00031a;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 5px black;
+}
